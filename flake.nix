@@ -32,7 +32,7 @@
             version = "v${versions.version}";
 
             src = pkgs.fetchurl {
-              url = "https://github.com/KhulnaSoft/khulnasoft/releases/download/language-server-v${versions.version}/language_server_${ls-system}";
+              url = "https://github.com/KhulnaSoft/khulnasoft-release/releases/download/language-server-v${versions.version}/language_server_${ls-system}";
               sha256 = versions.hashes.${system};
             };
 

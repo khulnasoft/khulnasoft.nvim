@@ -38,7 +38,7 @@ function M.get_bin_info()
 		bin_sufix = bin_sufix,
 		bin = dir .. "/" .. "language_server_" .. bin_sufix,
 		download_url = language_server_download_url
-			.. "/KhulnaSoft/khulnasoft/releases/download/language-server-v"
+			.. "/KhulnaSoft/khulnasoft-release/releases/download/language-server-v"
 			.. versions.extension
 			.. "/language_server_"
 			.. bin_sufix
@@ -73,7 +73,7 @@ function M.validate(callback)
 						stamp
 						.. " does not match the expected Khulnasoft server stamp of "
 						.. versions.extension_stamp
-						.. ". Please update to: https://github.com/KhulnaSoft/khulnasoft/releases/tag/language-server-v"
+						.. ". Please update to: https://github.com/KhulnaSoft/khulnasoft-release/releases/tag/language-server-v"
 						.. versions.extension
 					)
 					callback(nil)

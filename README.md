@@ -107,7 +107,7 @@ in your default browser using the xdg-open command.
   - `curl`:
   - `gzip`: not needed on Windows, default implemenation given using powershell.exe Expand-Archive instead
 
-  - `language_server`: The path to the language server downloaded from the [official source.](https://github.com/KhulnaSoft/khulnasoft/releases/tag/language-server-v1.1.32)
+  - `language_server`: The path to the language server downloaded from the [official source.](https://github.com/KhulnaSoft/khulnasoft-release/releases/tag/language-server-v1.1.32)
 
 - `wrapper`: the path to a wrapper script/binary that is used to execute any
   binaries not listed under `tools`. This is primarily useful for NixOS, where
